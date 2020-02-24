@@ -1,0 +1,65 @@
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+<meta chrset="UTF 8">
+<title>BL Weapon DPS Calculator v0.07</title>     
+<style>
+body {
+  background-color: #000000;
+}
+h4, div {
+color: #F7FE01;
+}
+h3 {
+color: #01FE32;
+}
+input[type=text] {
+background-color: #000000;
+color: #01FE32;
+}
+</style>
+</head> 
+
+<h3>Borderlands Weapon DPS Calculator</h3>
+<script data-ad-client="ca-pub-1071035003958265" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script src="bl_dps_calc.js"></script>
+<!-- format: wep dmg, wep acc, wep handling, wep reload, wep firerate, wep mag size, ele damage, ele chance -->
+<h4>Weapon Name: <input type="text" id="wWepName" value="blaster" style="width:325px;"/>
+<h4>Weapon Damage: <input type="text" id="wDamage" value="34" style="width:64px;"/>
+<h4>Weapon Accuracy: <input type="text" id="wAccu" value="77" style="width:42px;"/>
+<h4>Weapon Reloadspeed: <input type="text" id="wReloadSpeed" value="2.3" style="width:42px;"/>
+<h4>Weapon Firerate: <input type="text" id="wFirerate" value="5.28" style="width:42px;"/>
+<h4>Weapon Magazine Size: <input type="text" id="wMagSize" value="15" style="width:42px;"/>
+<h4>Weapon Elemental Damage: <input type="text" id="wEleDamage" value="46" style="width:42px;"/>
+<h4>Weapon Elemental Chance: <input type="text" id="wEleChance" value="30" style="width:42px;"/>
+<h4>Guardian Rank Boosts (Optional)</h4>
+<h4>Gun Damage Bonus %: <input type="text" id="wGDB" value="7.96" style="width:42px;"/>
+<h4>Gun FireRate Bonus %: <input type="text" id="wGFRB" value="4.37" style="width:42px;"/>
+<h4>Gun Accuracy Bonus %: <input type="text" id="wGAB" value="0" style="width:42px;"/>
+<!--Reload bonuses are bugged had to disable! <h4>Gun ReloadSpeed Bonus %: <input type="text" disabled="true" id="wGRSB" value="0" style="width:42px;"/></h4> --> 
+
+<h4>Calculated DPS: <input type="text" id="CalcDPS" value="0" style="width:200px;"/>
+<br/>
+<button onclick="submit();" href="javascript:;">Calculate DPS!</button>
+<button onclick="submit2();" href="javascript:;">Calculate DPS+Guardian Ranks</button>
+<button onclick="clearText();" href="javascript:;">Clear Values</button><br/>
+<button onclick="SaveToList();" href="javascript:;">Save to List</button>
+<button onclick="DisplayList();" href="javascript:;">Display List</button>
+<!--<button onclick="openGitHub();" href="javascript:;">Get Sourcecode</button>-->
+<button onclick="openDonate();" href="javascript:;">Donate</button>
+<br/><br/>
+<div id="SaveResult"></div>
+
+<div id="Result"></div> 
+
+
+<a href="https://paypal.me/internprimas" target="_blank"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" title="Donate to Developer"></a>
+<a href="https://github.com/LeftBased/Borderlands-Weapon-DPS-Calculator-JavaScript" target="_blank"><img src="GitHub-Mark.png" title="Sourcecode on GitHub">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- testy -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1071035003958265" data-ad-slot="3033456321" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</body>  
+</html>
