@@ -15034,4 +15034,4 @@
         [264, 1, 2]
     ]
 ]);
-//# sourceMappingURL=main.e82e8fb3.chunk.js.map
+//# sourceMappingURL=https://freerice.com/static/js/main.e82e8fb3.chunk.js.map
